@@ -7,3 +7,11 @@
 2014-07-20 15:38:10.835 myApp[19490:70b] Resetting plugins due to page load.
 2014-07-20 15:38:10.999 myApp[19490:70b] Finished load of: file:///Users/jieli/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E3F4C3A7-194D-445D-977C-50859C171447/myApp.app/www/index.html#/tab/dash
 2014-07-20 15:39:58.178 myApp[19490:70b] Received memory warning.
+2014-07-26 14:38:07.546 myApp[29775:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-26 14:38:07.570 myApp[29775:70b] Unlimited access to network resources
+2014-07-26 14:38:07.722 myApp[29775:70b] [CDVTimer][keyboard] 0.074983ms
+2014-07-26 14:38:07.722 myApp[29775:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-26 14:38:07.723 myApp[29775:70b] [CDVTimer][statusbar] 0.367999ms
+2014-07-26 14:38:07.723 myApp[29775:70b] [CDVTimer][TotalPluginStartup] 1.176000ms
+2014-07-26 14:38:07.871 myApp[29775:70b] Resetting plugins due to page load.
+2014-07-26 14:38:08.126 myApp[29775:70b] Finished load of: file:///Users/jieli/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E3F4C3A7-194D-445D-977C-50859C171447/myApp.app/www/index.html#/tab/dash

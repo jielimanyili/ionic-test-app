@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.21/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'android' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 warn package.json ionic-project@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'android', null ]
+7 verbose cache add name=undefined spec="android" args=["android",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'android',
+8 verbose parsed url   path: 'android',
+8 verbose parsed url   href: 'android' }
+9 silly lockFile e4bbe5b7-android android
+10 verbose lock android /Users/jieli/.npm/e4bbe5b7-android.lock
+11 silly lockFile e4bbe5b7-android android
+12 silly lockFile e4bbe5b7-android android
+13 verbose addNamed [ 'android', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 0c7aa45d-android android@
+16 verbose lock android@ /Users/jieli/.npm/0c7aa45d-android.lock
+17 silly addNameRange { name: 'android', range: '*', hasData: false }
+18 verbose url raw android
+19 verbose url resolving [ 'https://registry.npmjs.org/', './android' ]
+20 verbose url resolved https://registry.npmjs.org/android
+21 info trying registry request attempt 1 at 00:32:52
+22 verbose etag "5PVNM30JJPE19CL4P05NFEI0N"
+23 http GET https://registry.npmjs.org/android
+24 http 304 https://registry.npmjs.org/android
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Wed, 23 Jul 2014 04:32:53 GMT',
+25 silly registry.get     server: 'Apache',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'last-modified': 'Wed, 23 Jul 2014 04:32:53 GMT',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     etag: '"5PVNM30JJPE19CL4P05NFEI0N"',
+25 silly registry.get     'x-served-by': 'cache-ord1720-ORD',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1406089973.014755,VS0,VE30',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'content-length': '0',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 verbose etag android from cache
+27 silly addNameRange number 2 { name: 'android', range: '*', hasData: true }
+28 silly addNameRange versions [ 'android',
+28 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.6', '0.0.7', '0.0.5-cd' ] ]
+29 verbose addNamed [ 'android', '0.0.7' ]
+30 verbose addNamed [ '0.0.7', '0.0.7' ]
+31 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+32 verbose lock android@0.0.7 /Users/jieli/.npm/a58b0c1b-android-0-0-7.lock
+33 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+34 verbose lock https://registry.npmjs.org/android/-/android-0.0.7.tgz /Users/jieli/.npm/27db3861-js-org-android-android-0-0-7-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/android/-/android-0.0.7.tgz',
+35 verbose addRemoteTarball   'c7be841df0340e6bc718fc42a935b14f30c42348' ]
+36 info retry fetch attempt 1 at 00:32:53
+37 verbose fetch to= /var/folders/7y/0jly6p2s5msf_7x_fk9xz1c00000gn/T/npm-23184-MVwzohW2/1406089973416-0.04892023862339556/tmp.tgz
+38 http GET https://registry.npmjs.org/android/-/android-0.0.7.tgz
+39 http 404 https://registry.npmjs.org/android/-/android-0.0.7.tgz
+40 error fetch failed https://registry.npmjs.org/android/-/android-0.0.7.tgz
+41 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+42 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+43 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+44 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+45 silly lockFile 0c7aa45d-android android@
+46 silly lockFile 0c7aa45d-android android@
+47 error Error: 404 Not Found
+47 error     at WriteStream.<anonymous> (/usr/local/Cellar/node/0.10.21/lib/node_modules/npm/lib/utils/fetch.js:57:12)
+47 error     at WriteStream.EventEmitter.emit (events.js:117:20)
+47 error     at fs.js:1596:14
+47 error     at /usr/local/Cellar/node/0.10.21/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:103:5
+47 error     at Object.oncomplete (fs.js:107:15)
+48 error If you need help, you may report this log at:
+48 error     <http://github.com/isaacs/npm/issues>
+48 error or email it to:
+48 error     <npm-@googlegroups.com>
+49 error System Darwin 13.3.0
+50 error command "/usr/local/Cellar/node/0.10.21/bin/node" "/usr/local/bin/npm" "install" "android"
+51 error cwd /Users/jieli/Documents/Projects/Sandbox/ionic/myApp/platforms
+52 error node -v v0.10.21
+53 error npm -v 1.3.11
+54 verbose exit [ 1, true ]
